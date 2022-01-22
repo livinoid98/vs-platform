@@ -1,0 +1,43 @@
+header{
+    height:2rem;
+    display:flex;
+    align-items: center;
+    form{
+        width:100%;
+        input{
+            &:nth-child(1){
+                width:80%;
+                border:none;
+                padding:2%;
+                margin-left:2%;
+            }
+            &:nth-child(2){
+                cursor:pointer;
+                background-color:#fff;
+                border:none;
+                margin-left:2%;
+            }
+        }
+    }
+}
+
+.nav{
+    width:100%;
+    height:3rem;
+    border-bottom: 1px solid #ddd;
+    nav{
+        width:100%;
+        height:100%;
+        ul{
+            width:100%;
+            height:100%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            li{
+                text-align:center;
+                cursor:pointer;
+            }
+        }
+    }
+}
