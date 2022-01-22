@@ -10,22 +10,28 @@ header {
 
 header form {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header form input:nth-child(1) {
-  width: 80%;
+  margin-left: 2%;
   border: none;
   padding: 2%;
-  margin-left: 2%;
+  margin-right: auto;
 }
 
 header form input:nth-child(2) {
   font-weight: 700;
   color: #5C5C5C;
   cursor: pointer;
+  margin-right: 2%;
   background-color: #fff;
   border: none;
-  margin-left: 2%;
 }
 
 .nav {
@@ -82,35 +88,53 @@ header form input:nth-child(2) {
   width: 100%;
 }
 
-.main .main_content ul div {
+.main .main_content ul > div {
   width: 100%;
   height: 6rem;
   background-color: rosybrown;
   margin-top: 1rem;
 }
 
-.main .main_content ul div:nth-child(1) {
+.main .main_content ul > div:nth-child(1) {
   background-image: url("https://i.pinimg.com/564x/79/79/81/79798159762b4b9144e1daa0fe9d98ba.jpg");
   background-size: 100%;
   background-position: center;
 }
 
-.main .main_content ul div:nth-child(2) {
+.main .main_content ul > div:nth-child(2) {
   background-image: url("http://seouldatepop.appspot.com/static/img/datepop_web_main/go_home_banner.png");
   background-size: 100%;
   background-position: center;
 }
 
-.main .main_content ul div:nth-child(3) {
+.main .main_content ul > div:nth-child(3) {
   background-image: url("https://i.pinimg.com/originals/2f/09/d7/2f09d7fe2f55d2008ab7cbd1ffe8f89f.png");
   background-size: 100%;
   background-position: center;
 }
 
+.main .main_content ul div {
+  position: relative;
+}
+
 .main .main_content ul div .black {
   width: 100%;
-  height: 6rem;
+  height: 100%;
   background-color: #000;
   opacity: 30%;
+}
+
+.main .main_content ul div a {
+  width: 100%;
+  position: absolute;
+  top: 42%;
+}
+
+.main .main_content ul div a p {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 /*# sourceMappingURL=search.css.map */

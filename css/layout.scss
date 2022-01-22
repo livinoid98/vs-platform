@@ -101,38 +101,86 @@ header{
         float:left;
     }
     .main{
+        position:relative;
         width:100%;
         ul{
             padding-top:1.6%;
             width:100%;
             li{
+                position:relative;
                 img{
                     width:100%;
                 }
-            }
-        }
-        .locate{
-            width:100%;
-            button{
-                width:2.2rem;
-                height:2.2rem;
-                border:none;
-                border-radius:100%;
-                background-color:#E8D4D7;
-                display:block;
-                margin:0 auto;
-                margin-top:-4%;
-                z-index:3;
-                &:hover{
-                    background-color:#3B6292;
+                .black{
+                    width:100%;
+                    height:100%;
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    background-color:#000;
+                    opacity:30%;
                 }
             }
-            p{
-                font-size:0.7rem;
-                font-weight:700;
-                color:#000;
-                margin-top:2%;
-                text-align:center;
+        }
+        .active_chart{
+            width:80%;
+            position:absolute;
+            top:24%;
+            left:10%;
+            tr{
+                height:2.5rem;
+                td{
+                    .su_chart{
+                        width:10rem;
+                        height:1rem;
+                        background-color:#000;
+                    }
+                }
+            }
+        }
+        .function{
+            display:flex;
+            justify-content: space-between;
+            .good_count{
+                margin-left:1%;
+                span{
+                    font-size:0.7em;
+                    margin-top:1.2%;
+                    color:#93928E;
+                }
+            }
+            .locate{
+                width:100%;
+                button{
+                    width:2.2rem;
+                    height:2.2rem;
+                    position:relative;
+                    border:none;
+                    border-radius:100%;
+                    background-color:#E8D4D7;
+                    display:block;
+                    margin:0 auto;
+                    margin-top:-4%;
+                    z-index:18;
+                    &:hover{
+                        background-color:#3B6292;
+                    }
+                }
+                p{
+                    font-size:0.7rem;
+                    font-weight:700;
+                    color:#000;
+                    margin-top:2%;
+                    text-align:center;
+                }
+            }
+            .comment_count{
+                margin-right:1%;
+                span{
+                    font-size:0.7em;
+                    margin-top:1.2%;
+                    color:#93928E;
+                }
             }
         }
         .main_text{
@@ -167,12 +215,10 @@ footer{
     border-top: 1px solid #ddd;
     ul{
         width:100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
         li{
-            float:left;
-            margin-left:20%;
-            &:nth-child(1){
-                margin-left:12%;
-            }
             img{
                 width:100%;
             }
