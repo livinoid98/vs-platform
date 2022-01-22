@@ -1,0 +1,20 @@
+header {
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  margin-left: 2%;
+}
+
+header h1 {
+  margin-left: 1.5%;
+  margin-right: auto;
+  padding-bottom: 0.25%;
+}
+/*# sourceMappingURL=alarm.css.map */

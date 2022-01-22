@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,MAAM,EAAC,IAAI;EACX,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,MAAM;CAStB;;AAZD,AAII,MAJE,CAIF,CAAC,CAAA;EACG,WAAW,EAAC,EAAE;CACjB;;AANL,AAOI,MAPE,CAOF,EAAE,CAAA;EACE,WAAW,EAAC,IAAI;EAChB,YAAY,EAAC,IAAI;EACjB,cAAc,EAAC,KAAK;CACvB",
+    "sources": [
+        "alarm.scss"
+    ],
+    "names": [],
+    "file": "alarm.css"
+}

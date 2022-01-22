@@ -48,15 +48,15 @@ header .submit input {
 }
 
 .main_wrap .add_contents_section form input {
-  padding: 1%;
-  width: 98%;
+  padding: 2%;
+  width: 96%;
   border: none;
 }
 
 .main_wrap .add_contents_section form textarea {
-  height: 10rem;
-  padding: 1%;
-  width: 98%;
+  height: 15rem;
+  padding: 2%;
+  width: 96%;
   border: none;
 }
 /*# sourceMappingURL=create.css.map */
