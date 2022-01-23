@@ -58,6 +58,51 @@ a {
   clear: both;
 }
 
+.black {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  display: none;
+  opacity: 35%;
+}
+
+.active_chart {
+  width: 80%;
+  position: absolute;
+  top: 24%;
+  left: 10%;
+  display: none;
+}
+
+.active_chart tr {
+  height: 2.5rem;
+}
+
+.active_chart tr td {
+  color: #e4e4e4;
+}
+
+.active_chart tr td .su_chart {
+  width: 10rem;
+  height: 1rem;
+  background-color: #e4e4e4;
+}
+
+.active_click {
+  background-color: #3B6292;
+}
+
+.none_active_click {
+  background-color: #E8D4D7;
+}
+
+.display_block {
+  display: block;
+}
+
 header {
   width: 100%;
   padding: 1.6% 0%;
@@ -137,33 +182,6 @@ header .logo img {
   width: 100%;
 }
 
-.main_wrap .main ul li .black {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 30%;
-}
-
-.main_wrap .main .active_chart {
-  width: 80%;
-  position: absolute;
-  top: 24%;
-  left: 10%;
-}
-
-.main_wrap .main .active_chart tr {
-  height: 2.5rem;
-}
-
-.main_wrap .main .active_chart tr td .su_chart {
-  width: 10rem;
-  height: 1rem;
-  background-color: #000;
-}
-
 .main_wrap .main .function {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,15 +211,11 @@ header .logo img {
   position: relative;
   border: none;
   border-radius: 100%;
-  background-color: #E8D4D7;
   display: block;
   margin: 0 auto;
   margin-top: -4%;
   z-index: 18;
-}
-
-.main_wrap .main .function .locate button:hover {
-  background-color: #3B6292;
+  cursor: pointer;
 }
 
 .main_wrap .main .function .locate p {
